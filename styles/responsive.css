@@ -1,0 +1,151 @@
+/******************************** Media Queries **************************************/
+
+/* tablet Device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  header {
+    padding: 30px 50px 50px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 80px;
+  }
+
+  .feature {
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .feature-text {
+    max-width: 100%;
+  }
+
+  .experience {
+    padding-top: 80px;
+    grid-template-columns: 1fr;
+  }
+  .experience-btn {
+    left: 140px;
+    bottom: -100px;
+  }
+
+  .service-box-container {
+    flex-wrap: wrap;
+    margin: 50px 0px 0px;
+  }
+  .testimonial-box-container {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    margin: 0px 100px 50px;
+    padding: 40px 10px;
+  }
+}
+
+/* Mobile Devices */
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 30px 30px 50px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 80px;
+  }
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav .title {
+    text-align: center;
+  }
+
+  main {
+    padding: 80px 30px;
+  }
+
+  .feature {
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .feature-img-container {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-text {
+    text-align: center;
+  }
+
+  .experience {
+    padding-top: 80px;
+    grid-template-columns: 1fr;
+  }
+
+  .experience-text {
+    width: 100%;
+  }
+
+  .experience-text-box {
+    padding: 20px 25px;
+  }
+
+  .experience-btn {
+    left: 40px;
+    bottom: -100px;
+  }
+
+  .service .title,
+  .service .section-description {
+    width: 100%;
+    text-align: center;
+  }
+  .service-box-container {
+    flex-direction: column;
+    margin: 50px 0px 0px;
+  }
+
+  .sponsor-box-container {
+    flex-direction: column;
+  }
+
+  .testimonial {
+    margin-top: 80px;
+  }
+
+  .testimonial-box {
+    padding: 30px;
+  }
+
+  .testimonial-box-container {
+    flex-direction: column;
+  }
+
+  footer {
+    margin: 0px 30px 50px;
+    padding: 40px 20px;
+  }
+  .footer {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner-title {
+    font-size: 50px;
+  }
+
+  .experience-btn {
+    font-size: 30px;
+    left: 30px;
+    bottom: -100px;
+    border-radius: 8px;
+    padding: 40px 40px;
+  }
+  .experience-btn p {
+    font-size: 18px;
+  }
+}
